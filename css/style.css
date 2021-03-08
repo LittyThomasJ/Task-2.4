@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f5e8e9;
+    align-items: center;
+}
+.left-container{
+   border-radius: 5px;
+   box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+    height: 33em;
+    width: 25em;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.right-container{
+    height: 33rem;
+    width: 25rem;
+    background-image: linear-gradient(to bottom right, #ff4929, #fa1487);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+}
+h2{
+    text-align: center;
+    margin: 40px;
+    font-weight: 900;
+    font-family: 'Montserrat',sans-serif;
+    font-size:30px
+}
+.icon-container{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa{
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 3px;
+    padding: 7px 6px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.fa-facebook {
+    background:white;
+    color: black;
+}
+.fa-twitter {
+    background: white;
+    color: black;
+}
+.account{
+    color: gray;
+    text-align: center;
+    /* margin: 50px 50px 0px 50px; */
+    font-size: medium;
+}
+form{
+    text-align: center;
+}
+
+.register-form{
+    display: none;
+}
+input[type="text"],input[type="password"]{
+    background-color: #dcd6d7;
+    margin-bottom: 5px;
+    border: none;
+    width: 15rem;
+    height: .5rem;
+    margin-top: 5px;
+}
+
+.reg{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+a{
+    color:black;
+}
+input[type="Submit"]{
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    background-color: #ff4929;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.inputs
+{
+    padding: 15px;
+}
+input[type="Submit"]:focus {
+    outline: none;
+}
+span{
+    height: 30px;
+}
